@@ -21,6 +21,7 @@ This project is a Recipe Management System built using Flask for the backend and
 
 The project directory structure is organized as follows:
 
+```
 project_root/
 │
 ├── frontend/
@@ -48,6 +49,7 @@ project_root/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## Setup Instructions
 
@@ -56,15 +58,24 @@ To run this project locally, follow these steps:
 ### Backend Setup
 
 1. **Clone the repository:**
-   git clone https://github.com/your/repository.git
-   cd repository_name
+
+```
+   git clone https://github.com/YashAPro1/Share-Recipe.git
+   cd Share-Recipe
+```
 
 2. **Set up virtual environment:**
+
+```
    python -m venv venv
    . venv/bin/activate # On Windows use venv\Scripts\activate
+```
 
 3. **Install dependencies:**
+
+```
    pip install -r requirements.txt
+```
 
 4. **Set up the database:**
 
@@ -73,18 +84,30 @@ To run this project locally, follow these steps:
 - app.config['SQLALCHEMY_DATABASE_URI']=f'mysql://root:password@localhost:3306/recipe_db'
 
 5. **Run Flask application:**
+
+```
    main.py
+```
 
 ### Frontend Setup
 
 1. **Navigate to the frontend directory:**
+
+```
    cd frontend
+```
 
 2. **Install dependencies:**
+
+```
    npm install
+```
 
 3. **Start the React application:**
+
+```
    npm start
+```
 
 4. **Access the application:**
    Open your browser and go to `http://localhost:3000` to view the Recipe Management System.
@@ -94,7 +117,13 @@ To run this project locally, follow these steps:
 Unit tests are implemented using Pytest for backend API endpoints. To run the tests:
 
 1. **Activate virtual environment:**
+
+```
    . venv/bin/activate # On Windows use venv\Scripts\activate
+```
 
 2. **Run tests:**
+
+```
    pytest
+```
