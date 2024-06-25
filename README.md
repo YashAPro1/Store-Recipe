@@ -60,8 +60,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
 ```
-   git clone https://github.com/YashAPro1/Share-Recipe.git
-   cd Share-Recipe
+   git clone https://github.com/YashAPro1/Store-Recipe.git
+   cd Store-Recipe
 ```
 
 2. **Set up virtual environment:**
