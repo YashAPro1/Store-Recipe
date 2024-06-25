@@ -111,7 +111,7 @@ function Main() {
 
           <CreateArea addNote={addNote} />
   
-          <div className='allnotes' style={{display:"flex"}}>
+          <div className='allnotes' style={{display:"flex",flexWrap:"wrap"}}>
   
           {filteredNotes.length > 0 ? 
           filteredNotes.map((noteItem, index) =>
